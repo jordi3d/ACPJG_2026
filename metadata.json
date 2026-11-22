@@ -1,0 +1,6 @@
+{
+  "name": "ACPJG · PeriodistesGolf",
+  "description": "Resum de temporada, evolució del hàndicap i Ordre de Mèrit dels socis de l'ACPJG (PeriodistesGolf.cat).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
