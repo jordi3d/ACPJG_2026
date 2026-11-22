@@ -326,7 +326,7 @@ export default function App() {
                     autoComplete="off"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    placeholder="Ex: Jordi Alonso o CB38086819"
+                    placeholder="Ex: Seve Ballesteros o CB00000001"
                     className="w-full min-h-[52px] pl-12 pr-12 py-3 text-base bg-slate-50 border border-slate-300 rounded-xl text-slate-950 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-[#54a425] focus:border-[#54a425] focus:bg-white transition-colors"
                   />
                   {query && (
