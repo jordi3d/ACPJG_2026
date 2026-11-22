@@ -128,7 +128,7 @@ export default function App() {
 
   const quickExamples = useMemo(() => {
     if (!dataset) return [];
-    const preferred = ['CB38086819', 'CB01049293', 'CB38048537'];
+    const preferred = ['CB01049293', 'CB38086819', 'CB38048537'];
     const found = preferred
       .map((lic) => dataset.players.find((p) => p.license === lic))
       .filter((p): p is MemberPerformance => Boolean(p));
